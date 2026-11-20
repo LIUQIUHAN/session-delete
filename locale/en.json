@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Delete sessions",
+    "description": "Permanently delete any stored session and its log from the sidebar's session menu, including the session that is open or running. Choose “Delete session”, then confirm.",
+    "detail": "docs/DETAIL.md"
+  }
+}
