@@ -1,6 +1,6 @@
 # Session delete
 
-`@ly14081622/session-delete` adds a **Delete session** action to the Web sidebar's Session menu and the Host route behind it. Session persistence deliberately ships no deletion API — the JSONL backend documents that "nothing deletes session files" — so this bundle owns that operation end to end.
+`@dsh2030/session-delete` adds a **Delete session** action to the Web sidebar's Session menu and the Host route behind it. Session persistence deliberately ships no deletion API — the JSONL backend documents that "nothing deletes session files" — so this bundle owns that operation end to end.
 
 ## Use this package
 
