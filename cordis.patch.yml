@@ -1,4 +1,4 @@
 # Inserts this bundle's Host half: the authenticated /api/session.delete route.
 - insert:
     - id: session-delete
-      name: '@ly14081622/session-delete'
+      name: '@dsh2030/session-delete'
