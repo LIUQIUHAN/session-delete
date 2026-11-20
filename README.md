@@ -1,6 +1,6 @@
 # 删除会话
 
-`@ly14081622/session-delete` 在 Web 侧边栏的会话菜单中加入**删除会话**操作，并附带实现它的 Host 路由。会话持久化刻意不提供删除 API（JSONL 后端文档写明“不会删除会话文件”），因此这个插件完整承担了该操作。
+`@dsh2030/session-delete` 在 Web 侧边栏的会话菜单中加入**删除会话**操作，并附带实现它的 Host 路由。会话持久化刻意不提供删除 API（JSONL 后端文档写明“不会删除会话文件”），因此这个插件完整承担了该操作。
 
 ## 使用
 
@@ -62,7 +62,7 @@ bundle 补丁插入一个 Host 行 `session-delete`，依赖 `connection`、`ses
 
 English | 中文
 
-`@ly14081622/session-delete` adds a **Delete session** action to the Web sidebar's Session menu and the Host route behind it. Session persistence deliberately ships no deletion API — the JSONL backend documents that "nothing deletes session files" — so this bundle owns that operation end to end.
+`@dsh2030/session-delete` adds a **Delete session** action to the Web sidebar's Session menu and the Host route behind it. Session persistence deliberately ships no deletion API — the JSONL backend documents that "nothing deletes session files" — so this bundle owns that operation end to end.
 
 ## Use this package
 
