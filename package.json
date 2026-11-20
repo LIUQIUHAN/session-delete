@@ -1,5 +1,5 @@
 {
-  "name": "@ly14081622/session-delete",
+  "name": "@dsh2030/session-delete",
   "version": "1.0.0",
   "private": false,
   "description": "Permanently delete stored DeepSeek Harness sessions from the sidebar — including the session that is open or running.",
