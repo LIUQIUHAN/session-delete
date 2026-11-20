@@ -1,0 +1,56 @@
+{
+  "name": "@ly14081622/session-delete",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Permanently delete stored DeepSeek Harness sessions from the sidebar — including the session that is open or running.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "session",
+    "delete",
+    "cleanup",
+    "sidebar"
+  ],
+  "homepage": "https://github.com/LIUQIUHAN/session-delete#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LIUQIUHAN/session-delete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LIUQIUHAN/session-delete/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-client-ui-context-menu",
+        "@deepseek-ai/dsh-api-session-controller",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  }
+}
