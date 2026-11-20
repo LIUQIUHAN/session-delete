@@ -6,7 +6,7 @@
  * Session list, and leaves the conversation when the deleted Session was open.
  */
 window.__ModuleLoader__.load({
-  id: '@ly14081622/session-delete',
+  id: '@dsh2030/session-delete',
   factory(require) {
     const React = require('react')
     const h = React.createElement
@@ -111,7 +111,7 @@ window.__ModuleLoader__.load({
 
         ctx.effect(() => {
           const style = document.createElement('style')
-          style.setAttribute('data-plugin', '@ly14081622/session-delete')
+          style.setAttribute('data-plugin', '@dsh2030/session-delete')
           style.textContent = STYLE
           document.head.append(style)
           return () => {
